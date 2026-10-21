@@ -2,9 +2,9 @@
 
 An interactive, English-language walkthrough of private cross-region replication between two Autonomous Databases, with one GoldenGate deployment in each Azure region.
 
-Explore the globe, regional architecture, private networking, INSERT capture and apply, conflicting updates, Auto-CDR, and loop prevention.
+Explore the globe, regional architecture, private networking, INSERT capture and apply, same-PK update conflicts, Auto-CDR and local Replicat/Extract tag matching. Technical notes distinguish different primary keys sharing a business request, a separate application conflict.
 
-Revision 2026-10-19 v2. The opening is “GOLDENGATE ON AZURE.” Video chapter copy is generated from the same cinematic source. Technical notes cover database/PDB supplemental logging, TRANDATA, checkpoint and heartbeat setup. Recorded lab acceptance is distinguished from illustrative T1/T2 timestamps and recommended checks.
+Revision 2026-10-20 v3. The opening is “GOLDENGATE ON AZURE.” Video chapter copy is generated from the same cinematic source. Technical notes cover database/PDB supplemental logging, TRANDATA, checkpoint and heartbeat setup. Recorded lab acceptance is distinguished from illustrative T1/T2 timestamps and recommended checks. Both databases and deployments were stopped on 20 October after testing; the animation is not live status.
 
 This is an educational lab visualization with synthetic data. It has no database connections, cloud API calls, analytics or credentials. It does not represent measured latency or certify a production configuration.
 
